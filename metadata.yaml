@@ -1,5 +1,9 @@
 homepage: "https://advertising.amazon.com"
 documentation: "https://advertising.amazon.com/API/docs/en-us/guides/events/events"
 versions:
+  # Latest version
+  - sha: 9b47ff880109f7b9ce32e8a3aca0b093a455a1fc
+    changeNotes: Add vendor name to template display name.
+  # Older versions
   - sha: cd1f6304ccced4c3fe00a1ea6a830042a2a62402
     changeNotes: Initial release.
