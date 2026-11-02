@@ -1,6 +1,17 @@
 # Amazon CAPI Timestamp — Server-Side Variable Template for Google Tag Manager
 
-This Google Tag Manager server-side variable template converts epoch timestamps to ISO-8601 format (`YYYY-MM-DDThh:mm:ssZ`), as required by the Amazon Ads Events API. This variable is a companion to the [Amazon Events API Tag](https://github.com/amzn/ads-events-api-gtm-tag).
+This Google Tag Manager server-side variable template converts epoch timestamps to ISO-8601 format (`YYYY-MM-DDThh:mm:ssZ`), as required by the Amazon Ads Events API.
+
+## Key Features
+
+- Outputs timestamps in ISO-8601 format (`YYYY-MM-DDThh:mm:ssZ`) required by the Events API
+- Optionally accepts a specific epoch timestamp in milliseconds for delayed or offline events
+- Defaults to current server time when no input is provided
+- Designed for use with the [Amazon Events API Tag](https://github.com/amzn/ads-events-api-gtm-tag)
+
+## Installation
+
+In your GTM server container, go to **Templates** → **Search Gallery**, search for the exact template name **Amazon CAPI Timestamp by amzn**, and add the template. This variable is a companion to the [Amazon Events API Tag](https://github.com/amzn/ads-events-api-gtm-tag).
 
 ## Configuration
 
@@ -28,7 +39,7 @@ For issues or questions, please open an issue in this repository.
 
 All timestamps are processed entirely within your GTM server container. No data is sent to external services by this variable.
 
-See [CONTRIBUTING](CONTRIBUTING.md) for more information.
+See CONTRIBUTING for more information.
 
 ## License
 

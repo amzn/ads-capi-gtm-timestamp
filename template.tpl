@@ -13,7 +13,7 @@ ___INFO___
   "id": "cvt_temp_public_id",
   "version": 1,
   "securityGroups": [],
-  "displayName": "Amazon CAPI Timestamp",
+  "displayName": "Amazon CAPI Timestamp by amzn",
   "description": "Timestamp converter from epoch to ISO-8601. Please ensure values are in epochMilliseconds.",
   "categories": ["ADVERTISING", "ANALYTICS", "CONVERSIONS"],
   "containerContexts": [
